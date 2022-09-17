@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "fastify": "^4.6.0"
+  },
+
+  "scripts": {
+    "dev": "nodemon main.js | pino-colada",
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "pino-colada": "^2.2.2",
+    "pino-pretty": "^9.1.0"
+  }
+}
